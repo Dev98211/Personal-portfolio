@@ -71,3 +71,18 @@ window.onload=()=>{
 
     skillbar()
 }
+
+
+//counter
+let init=0;
+let counter = document.querySelectorAll('.counter')
+counter.forEach((count)=>{
+ let stintrvl=setInterval(()=>{
+init++
+count.innerText=init
+console.log(count.innerText)
+if(init>500){
+    clearInterval(stintrvl)
+}
+},10)
+})

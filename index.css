@@ -8,18 +8,9 @@ html{
     width: 18px;
     
 }
-::-webkit-scrollbar-button{
 
 
-}
-::-webkit-scrollbar-corner{
 
-
-}
-::-webkit-scrollbar-track{
-
-    
-}
 ::-webkit-scrollbar-thumb{
     height: 10px;
     border-radius: 10px;
@@ -848,6 +839,9 @@ footer p.caption{
     color: rgba(223, 223, 223, 0.692);
     font-size: 15px;
 }
+#portfolio .p-h{
+    color: #55e6a5;
+}
 @keyframes translate {
     0%{
         transform: translate(0%);
@@ -1052,7 +1046,7 @@ footer p.caption{
 @media screen and (max-width:576px) {
 
     #header{
-      padding: 0 20px 0 0px;
+      padding: 0 15px 0 0px;
         width: 100%;
         background-color: #141c27;
     }
