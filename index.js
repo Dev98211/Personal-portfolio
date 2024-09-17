@@ -86,3 +86,20 @@ if(init>500){
 }
 },10)
 })
+
+//scroll top
+let scrltop = document.querySelector('#scroll-top')
+window.onscroll=()=>{
+    if(window.scrollY>300){
+        scrltop.classList.add('active')
+    }else if (window.scrollY<300){
+        scrltop.classList.remove('active')
+
+    }
+}
+scrltop.addEventListener('click',()=>{
+window.scrollTo({
+    top:0,
+    behavior:'smooth'
+})
+})
